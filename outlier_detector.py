@@ -23,7 +23,7 @@ data_unseen = taxi.features_create(data_unseen)
 
 models = Models(models_folder)
 models_names = models.get_names()
-# models_names = ['nyc_taxi_abod', 'nyc_taxi_iforest']
+# models_names = ['nyct_abod', 'nyct_iforest'] # ['nyct_sod']
 
 for model_name in models_names:
     print(model_name)

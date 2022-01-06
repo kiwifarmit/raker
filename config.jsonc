@@ -1,5 +1,5 @@
 {
-    "dataset_prefix": "nyct", // dataset prefix
+    "dataset_prefix": "nyct",
 
     /*
         abod      Angle-base Outlier Detection      pyod.models.abod.ABOD
