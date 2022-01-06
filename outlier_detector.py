@@ -32,6 +32,6 @@ for model_name in models_names:
     # print(prediction['Anomaly'].head(5))
     data_anomalies['Outlier'] = data_anomalies['Outlier'] + prediction['Anomaly']
 
-print(data_anomalies[data_anomalies['Outlier'] == data_anomalies['Outlier'].max()].head(50))  
-# print(data_anomalies[data_anomalies['Outlier'] >= data_anomalies['Outlier'].max() // 2].head(50))
+# print(data_anomalies[data_anomalies['Outlier'] == data_anomalies['Outlier'].max()].head(50))  
+print(data_anomalies[data_anomalies['Outlier'] > data_anomalies['Outlier'].max() // 2 + 1].head(50))
 # print(data_anomalies[data_anomalies['Outlier'] > len(models_names) // 2].head(50))
