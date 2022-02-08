@@ -13,6 +13,7 @@ pycaret
 # Links
 
 ## Pycaret
+* PyCaret [Time Series Online Learning](https://github.com/pycaret/pycaret/discussions/1767) (retraining)
 * [PyCaret + SKORCH: Build PyTorch Neural Networks using Minimal Code](https://towardsdatascience.com/pycaret-skorch-build-pytorch-neural-networks-using-minimal-code-57079e197f33)
 
 ## darts
